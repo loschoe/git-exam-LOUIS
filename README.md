@@ -122,6 +122,7 @@ Vous devez :
 1. Revenir à l'état précédent avec `git reset` ou `git revert`.
 2. Expliquer la différence entre les deux commandes.
 
-Il faut utiliser git revert car on ne veut supprimer que le commit précédent. 
-Git reset réinitialise toute la branche ce qu'on ne veut pas. 
-Le plus approprié est de ne pas toucher à tous les commits et de se focaliser sur le commit déféctueux. 
+# Réponse à la qestion 2
+Il faut utiliser `git revert` car on ne souhaite pas supprimer qu'un commit particulier. 
+`git reset` réinitialiser l’historique de la branche ce qu'on ne veut pas. 
+Le plus approprié est de ne pas toucher à la branche mais de se focaliser sur le commit défectueux. 
